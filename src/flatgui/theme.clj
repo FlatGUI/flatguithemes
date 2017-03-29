@@ -84,7 +84,7 @@
   :prime-6 (flatgui.awt/color 0 78 145) ; Regular component foreground
   :prime-gradient-start (flatgui.awt/color 0 87 152) ; Same usage as :prime-1 but for faces with gradient
   :prime-gradient-end (flatgui.awt/color 0 70 136) ; Same usage as :prime-1 but for faces with gradient
-  :extra-1 (flatgui.awt/color 199 199 199) ; Foreground extra
+  :extra-1 (flatgui.awt/color 145 145 145) ; Foreground extra
   :extra-2 (flatgui.awt/color 234 237 236) ; Background extra
   :engaged (flatgui.awt/color 34 168 108)  ; Engaged checkable (radiobutton, checkbox, etc)
   :focused (flatgui.awt/color 34 168 108)
