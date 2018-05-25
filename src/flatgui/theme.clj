@@ -119,3 +119,6 @@
    :engaged (flatgui.awt/color 34 168 108)  ; Engaged checkable (radiobutton, checkbox, etc)
    :focused (flatgui.awt/color 34 168 108)
    })
+
+;;; Internal
+(defn _source-marker [] nil)
