@@ -6,7 +6,7 @@
 ; the terms of this license.
 ; You must not remove this notice, or any other, from this software.
 
-(def flatgui-version "0.2.2-SNAPSHOT")
+(def flatgui-version "0.2.3-SNAPSHOT")
 
 
 (defproject org.flatgui/flatguithemes flatgui-version
@@ -21,6 +21,8 @@
                         "clojars" {:url "https://clojars.org/repo/"
                                    :username :env/clojars_user
                                    :password :env/clojars_password}}
+
+  :source-paths ["src/clojure"]
   :omit-source true
   :aot :all
 
